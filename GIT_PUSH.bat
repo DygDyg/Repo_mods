@@ -7,6 +7,6 @@ set datetime=%dt%_%tm%
 echo %datetime%
 git add .
 git commit -m "%datetime%"
-git push origin master
+git push origin main
 timeout 5
 pause
