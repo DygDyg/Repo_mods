@@ -1,9 +1,0 @@
-{
-  "name": "DeadVoiceChat",
-  "version_number": "1.0.0",
-  "website_url": "https://github.com/Xkein/REPO_DeadVoiceChat",
-  "description": "A mod for the game R.E.P.O that allow dead players chat with alive players.",
-  "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
-  ]
-}
