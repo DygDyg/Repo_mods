@@ -1,0 +1,6 @@
+{
+    "del": [
+        "BepInEx/cache",
+        "BepInEx/plugins"
+    ]
+}
