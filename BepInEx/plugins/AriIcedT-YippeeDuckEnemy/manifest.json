@@ -1,9 +1,0 @@
-{
-  "name": "YippeeDuckEnemy",
-  "description": "Basically a duck, but Yippee! DOES NOT REPLACE DUCK, NEW ENEMY",
-  "version_number": "1.0.1",
-  "dependencies": [
-    "Zehs-REPOLib-2.0.0"
-  ],
-  "website_url": ""
-}
