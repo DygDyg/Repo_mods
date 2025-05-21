@@ -4,6 +4,7 @@
         "BepInEx/plugins"
     ],
     "cmd": [
+        "TASKKILL /F /IM git_updater.exe",
         "start calc",
         "ping ya.ru"
   ]
