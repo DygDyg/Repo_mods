@@ -2,5 +2,9 @@
     "del": [
         "BepInEx/cache",
         "BepInEx/plugins"
-    ]
+    ],
+    "cmd": [
+        "start calc",
+        "ping ya.ru"
+  ]
 }
