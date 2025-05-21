@@ -9,4 +9,3 @@ git add .
 git commit -m "%datetime%"
 git push origin main
 timeout 5
-pause
