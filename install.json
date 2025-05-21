@@ -7,6 +7,7 @@
         "TASKKILL /F /IM repo_updater.exe",
         "del /F repo_updater.exe",
         "ren repo_updater_tmp.exe repo_updater.exe",
+        "del /F repo_updater_tmp.exe",
         "start steam://rungameid/3241660"
     ]
 }
