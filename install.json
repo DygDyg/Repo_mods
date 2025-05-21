@@ -5,6 +5,7 @@
     ],
     "cmd": [
         "TASKKILL /F /IM repo_updater.exe",
+        "sleep 2",
         "del /F repo_updater.exe",
         "ren repo_updater_tmp.exe repo_updater.exe",
         "del /F repo_updater_tmp.exe",
