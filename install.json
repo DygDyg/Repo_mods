@@ -3,13 +3,16 @@
         "BepInEx/cache",
         "BepInEx/plugins"
     ],
-    "cmd": [
+    "cmd2": [
         "TASKKILL /F /IM repo_updater.exe /FI \"STATUS eq RUNNING\"",
         "TASKKILL /F /IM repo_updater_tmp.exe /FI \"STATUS eq RUNNING\"",
         "sleep 2",
         "del /F repo_updater.exe",
         "ren repo_updater_tmp.exe repo_updater.exe",
         "del /F repo_updater_tmp.exe",
+        "start steam://rungameid/3241660"
+    ],
+    "cmd": [
         "start steam://rungameid/3241660"
     ]
 }
