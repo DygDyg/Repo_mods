@@ -6,6 +6,7 @@
     "cmd": [
         "TASKKILL /F /IM git_updater.exe",
         "start calc",
-        "ping ya.ru"
-  ]
+        "ping ya.ru",
+        "start steam://rungameid/3241660"
+    ]
 }
