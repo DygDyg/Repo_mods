@@ -4,7 +4,7 @@
         "BepInEx/plugins"
     ],
     "cmd": [
-        "taskkill /F /IM repo_updater.exe >nul 2>&1 || exit /b 0",
+        "TASKKILL /F /IM repo_updater.exe /FI \"STATUS eq RUNNING\"",
         "del /F repo_updater.exe",
         "ren repo_updater_tmp.exe repo_updater.exe",
         "start steam://rungameid/3241660"
