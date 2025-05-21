@@ -1,0 +1,9 @@
+{
+    "name": "CustomColors_RU",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Adds RGB color sliders so you can select a custom color. - Добавляет ползунки цвета RGB, чтобы вы могли выбрать пользовательский цвет.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
