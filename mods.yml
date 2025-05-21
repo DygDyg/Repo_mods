@@ -1,0 +1,777 @@
+- manifestVersion: 1
+  name: BepInEx-BepInExPack
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/
+  displayName: BepInExPack
+  description: BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1741892403595
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2100
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\cache\BepInEx-BepInExPack\5.4.2100\icon.png
+- manifestVersion: 1
+  name: DiabolicalStudios-WidescreenSupport
+  authorName: DiabolicalStudios
+  websiteUrl: https://thunderstore.io/c/repo/p/DiabolicalStudios/WidescreenSupport/
+  displayName: WidescreenSupport
+  description: Widescreen support for R.E.P.O. Better performance then other
+    counterparts. Looking into the stretching issue
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1741971361814
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\DiabolicalStudios-WidescreenSupport\icon.png
+- manifestVersion: 1
+  name: BlueAmulet-REPO_HD
+  authorName: BlueAmulet
+  websiteUrl: https://thunderstore.io/c/repo/p/BlueAmulet/REPO_HD/
+  displayName: REPO_HD
+  description: Removes the pixelation effect entirely
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1743682548698
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\BlueAmulet-REPO_HD\icon.png
+- manifestVersion: 1
+  name: Shelest05-CustomColors_RU
+  authorName: Shelest05
+  websiteUrl: https://thunderstore.io/c/repo/p/Shelest05/CustomColors_RU/
+  displayName: CustomColors_RU
+  description: Adds RGB color sliders so you can select a custom color. -
+    Добавляет ползунки цвета RGB, чтобы вы могли выбрать пользовательский цвет.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1742582544433
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Shelest05-CustomColors_RU\icon.png
+- manifestVersion: 1
+  name: GalaxyMods-MoreShopItems
+  authorName: GalaxyMods
+  websiteUrl: https://thunderstore.io/c/repo/p/GalaxyMods/MoreShopItems/
+  displayName: MoreShopItems
+  description: The store now carries more items on the shelves!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746135278
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-1.4.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 3
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\GalaxyMods-MoreShopItems\icon.png
+- manifestVersion: 1
+  name: Zehs-REPOLib
+  authorName: Zehs
+  websiteUrl: https://thunderstore.io/c/repo/p/Zehs/REPOLib/
+  displayName: REPOLib
+  description: Library for adding content to R.E.P.O.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746135159
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Zehs-REPOLib\icon.png
+- manifestVersion: 1
+  name: YMC_MHZ-MoreHead
+  authorName: YMC_MHZ
+  websiteUrl: https://thunderstore.io/c/repo/p/YMC_MHZ/MoreHead/
+  displayName: MoreHead
+  description: Customizable cosmetics. 简单好玩的装饰模组，提供unitypackage，供玩家自行导入模型。
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746135034
+  loaders: []
+  dependencies:
+    - nickklmao-MenuLib-2.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 1
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\YMC_MHZ-MoreHead\icon.png
+- manifestVersion: 1
+  name: nickklmao-MenuLib
+  authorName: nickklmao
+  websiteUrl: https://thunderstore.io/c/repo/p/nickklmao/MenuLib/
+  displayName: MenuLib
+  description: A library for creating UI!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746134906
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 4
+    patch: 1
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\nickklmao-MenuLib\icon.png
+- manifestVersion: 1
+  name: RESET-MoreHeadPlus
+  authorName: RESET
+  websiteUrl: https://thunderstore.io/c/repo/p/RESET/MoreHeadPlus/
+  displayName: MoreHeadPlus
+  description: Adds several more cosmetics to the MoreHead mod such as Nintendo,
+    Sega, Anime and more!.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746134711
+  loaders: []
+  dependencies:
+    - YMC_MHZ-MoreHead-1.3.10
+    - Maygik-MoreHeadUtilities-1.0.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 9
+    patch: 6
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\RESET-MoreHeadPlus\icon.png
+- manifestVersion: 1
+  name: AriIcedT-YippeeDuckEnemy
+  authorName: AriIcedT
+  websiteUrl: https://thunderstore.io/c/repo/p/AriIcedT/YippeeDuckEnemy/
+  displayName: YippeeDuckEnemy
+  description: Basically a duck, but Yippee! DOES NOT REPLACE DUCK, NEW ENEMY
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1743682548086
+  loaders: []
+  dependencies:
+    - Zehs-REPOLib-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\AriIcedT-YippeeDuckEnemy\icon.png
+- manifestVersion: 1
+  name: BobisMods-REPORoles
+  authorName: BobisMods
+  websiteUrl: https://thunderstore.io/c/repo/p/BobisMods/REPORoles/
+  displayName: REPORoles
+  description: R.E.P.O. Roles is an exciting mod which adds randomly (or manually)
+    assigned player roles every game.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746134526
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - nickklmao-MenuLib-2.2.0
+    - nickklmao-REPOConfig-1.1.8
+    - Zehs-REPOLib-2.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\BobisMods-REPORoles\icon.png
+- manifestVersion: 1
+  name: BULLETBOT-MoreUpgrades
+  authorName: BULLETBOT
+  websiteUrl: https://thunderstore.io/c/repo/p/BULLETBOT/MoreUpgrades/
+  displayName: MoreUpgrades
+  description: Adds more upgrade items to the game, has an library and is highly
+    configurable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746134417
+  loaders: []
+  dependencies:
+    - Zehs-REPOLib-2.0.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 8
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\BULLETBOT-MoreUpgrades\icon.png
+- manifestVersion: 1
+  name: Rebateman-LateJoin
+  authorName: Rebateman
+  websiteUrl: https://thunderstore.io/c/repo/p/Rebateman/LateJoin/
+  displayName: LateJoin
+  description: Faced with friends that want to join an active game? Gone are the
+    days of closing and re-opening your lobby! Just invite your friends after
+    you've shopped!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1742907660366
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Rebateman-LateJoin\icon.png
+- manifestVersion: 1
+  name: Tansinator-Map_Value_Tracker
+  authorName: Tansinator
+  websiteUrl: https://thunderstore.io/c/repo/p/Tansinator/Map_Value_Tracker/
+  displayName: Map_Value_Tracker
+  description: Tracks all valuable items on the map. Updates in real-time.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746134317
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Tansinator-Map_Value_Tracker\icon.png
+- manifestVersion: 1
+  name: Rangerbb275-REPOing_Valuables
+  authorName: Rangerbb275
+  websiteUrl: https://thunderstore.io/c/repo/p/Rangerbb275/REPOing_Valuables/
+  displayName: REPOing_Valuables
+  description: Adds 25 new vanilla valuables to R.E.P.O!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1742908399402
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-1.4.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Rangerbb275-REPOing_Valuables\icon.png
+- manifestVersion: 1
+  name: fedorabunnies-EvenMoreHats
+  authorName: fedorabunnies
+  websiteUrl: https://thunderstore.io/c/repo/p/fedorabunnies/EvenMoreHats/
+  displayName: EvenMoreHats
+  description: More Hats + Youtuber cosmetics
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747819897358
+  loaders: []
+  dependencies:
+    - YMC_MHZ-MoreHead-1.4.0
+    - Maygik-MoreHeadUtilities-1.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 9
+    patch: 0
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\cache\fedorabunnies-EvenMoreHats\1.9.0\icon.png
+- manifestVersion: 1
+  name: flipf17-DeadTTS
+  authorName: flipf17
+  websiteUrl: https://thunderstore.io/c/repo/p/flipf17/DeadTTS/
+  displayName: DeadTTS
+  description: Allows you to hear TTS from dead players. Configurable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746133930
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 12
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\flipf17-DeadTTS\icon.png
+- manifestVersion: 1
+  name: Bengimi-BensCosmetics
+  authorName: Bengimi
+  websiteUrl: https://thunderstore.io/c/repo/p/Bengimi/BensCosmetics/
+  displayName: BensCosmetics
+  description: This is a collection of models I had laying around, plus some that
+    friends threw at me, hopefully people like them, will try my best to give
+    credit.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746133821
+  loaders: []
+  dependencies:
+    - YMC_MHZ-MoreHead-1.3.9
+    - Maygik-MoreHeadUtilities-1.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 5
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Bengimi-BensCosmetics\icon.png
+- manifestVersion: 1
+  name: SharkLucas-SyncHostUpgrades
+  authorName: SharkLucas
+  websiteUrl: https://thunderstore.io/c/repo/p/SharkLucas/SyncHostUpgrades/
+  displayName: SyncHostUpgrades
+  description: Later-joining players can also synchronize host upgrades. 后加入玩家也可以同步主机升级.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1743173789669
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\SharkLucas-SyncHostUpgrades\icon.png
+- manifestVersion: 1
+  name: itsUndefined-Shop_Items_Spawn_in_Level
+  authorName: itsUndefined
+  websiteUrl: https://thunderstore.io/c/repo/p/itsUndefined/Shop_Items_Spawn_in_Level/
+  displayName: Shop_Items_Spawn_in_Level
+  description: upgrade items may spawn in the level, now you can find upgrades
+    while exploring instead of only being able to purchase them.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1743891257501
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 17
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\itsUndefined-Shop_Items_Spawn_in_Level\icon.png
+- manifestVersion: 1
+  name: nickklmao-REPOConfig
+  authorName: nickklmao
+  websiteUrl: https://thunderstore.io/c/repo/p/nickklmao/REPOConfig/
+  displayName: REPOConfig
+  description: Edit mod configs in-game!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746133144
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - nickklmao-MenuLib-2.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\nickklmao-REPOConfig\icon.png
+- manifestVersion: 1
+  name: Maygik-MoreHeadUtilities
+  authorName: Maygik
+  websiteUrl: https://thunderstore.io/c/repo/p/Maygik/MoreHeadUtilities/
+  displayName: MoreHeadUtilities
+  description: Allows MoreHead cosmetics to hide body parts and use groups.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746746133246
+  loaders: []
+  dependencies:
+    - YMC_MHZ-MoreHead-1.3.10
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Maygik-MoreHeadUtilities\icon.png
+- manifestVersion: 1
+  name: Xkein-DeadVoiceChat
+  authorName: Xkein
+  websiteUrl: https://thunderstore.io/c/repo/p/Xkein/DeadVoiceChat/
+  displayName: DeadVoiceChat
+  description: A mod for the game R.E.P.O that allow dead players chat with alive players.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746854613550
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: false
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\cache\Xkein-DeadVoiceChat\1.0.0\icon.png
+- manifestVersion: 1
+  name: linkoid-RoboUnion
+  authorName: linkoid
+  websiteUrl: https://thunderstore.io/c/repo/p/linkoid/RoboUnion/
+  displayName: RoboUnion
+  description: "[MorePlayers] Allows more players to play at once by providing
+    options for adjusting the maximum number of players in a room."
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746854773672
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 4
+    patch: 2
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\linkoid-RoboUnion\icon.png
+- manifestVersion: 1
+  name: RTLC-REPO_Russian_Translation
+  authorName: RTLC
+  websiteUrl: https://thunderstore.io/c/repo/p/RTLC/REPO_Russian_Translation/
+  displayName: REPO_Russian_Translation
+  description: Перевод текстур и текста игры на русский язык (Поддержка беты)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746854883201
+  loaders: []
+  dependencies:
+    - Hayrizan-XUnity_AutoTranslator-5.4.4
+    - BepInEx-BepInExPack-5.4.2100
+    - Lavighju-espeakTTS-0.1.4
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\RTLC-REPO_Russian_Translation\icon.png
+- manifestVersion: 1
+  name: Lavighju-espeakTTS
+  authorName: Lavighju
+  websiteUrl: https://thunderstore.io/c/repo/p/Lavighju/espeakTTS/
+  displayName: espeakTTS
+  description: Changes the TTS to support multiple languages and adds voice customization
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747488967256
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Lavighju-espeakTTS\icon.png
+- manifestVersion: 1
+  name: Hayrizan-XUnity_AutoTranslator
+  authorName: Hayrizan
+  websiteUrl: https://thunderstore.io/c/repo/p/Hayrizan/XUnity_AutoTranslator/
+  displayName: XUnity_AutoTranslator
+  description: Advanced translator plugin
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1746854884039
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 4
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Hayrizan-XUnity_AutoTranslator\icon.png
+- manifestVersion: 1
+  name: ManancialGD-ChatClipboard
+  authorName: ManancialGD
+  websiteUrl: https://thunderstore.io/c/repo/p/ManancialGD/ChatClipboard/
+  displayName: ChatClipboard
+  description: copy and paste chat messages.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747006626076
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\ManancialGD-ChatClipboard\icon.png
+- manifestVersion: 1
+  name: Tolian-Tolian_Levels
+  authorName: Tolian
+  websiteUrl: https://thunderstore.io/c/repo/p/Tolian/Tolian_Levels/
+  displayName: Tolian_Levels
+  description: adds new levels a game. by tolian!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747079617198
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-2.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 4
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Tolian-Tolian_Levels\icon.png
+- manifestVersion: 1
+  name: DirtyGames-REPOGambling
+  authorName: DirtyGames
+  websiteUrl: https://thunderstore.io/c/repo/p/DirtyGames/REPOGambling/
+  displayName: REPOGambling
+  description: REPO Gambling adds configurable casino to the shop! A wheel with
+    many prizes, death, upgrade, mystery, jackpot and more! Slot machines with
+    jackpots and bets! Configurable settings to ensure you play the way you want
+    too.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747488966934
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-2.1.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 7
+  enabled: false
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\cache\DirtyGames-REPOGambling\1.5.7\icon.png
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Enemies
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/repo/p/Magic_Wesley/Wesleys_Enemies/
+  displayName: Wesleys_Enemies
+  description: Adds a few new enemies
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747616415787
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-1.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 3
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Magic_Wesley-Wesleys_Enemies\icon.png
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Levels
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/repo/p/Magic_Wesley/Wesleys_Levels/
+  displayName: Wesleys_Levels
+  description: Adds a new level
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747616420496
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-1.5.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Magic_Wesley-Wesleys_Levels\icon.png
+- manifestVersion: 1
+  name: Magic_Wesley-Wesleys_Valuables
+  authorName: Magic_Wesley
+  websiteUrl: https://thunderstore.io/c/repo/p/Magic_Wesley/Wesleys_Valuables/
+  displayName: Wesleys_Valuables
+  description: Adds a bunch new valuables
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747616424557
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Zehs-REPOLib-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Magic_Wesley-Wesleys_Valuables\icon.png
+- manifestVersion: 1
+  name: Tolian-REPODiscordRichPresence
+  authorName: Tolian
+  websiteUrl: https://thunderstore.io/c/repo/p/Tolian/REPODiscordRichPresence/
+  displayName: REPODiscordRichPresence
+  description: R.E.P.O. Discord Rich Presence support
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  installedAtTime: 1747616959728
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 6
+  enabled: true
+  icon: C:\Users\dygdy\AppData\Roaming\r2modmanPlus-local\REPO\profiles\Default\BepInEx\plugins\Tolian-REPODiscordRichPresence\icon.png

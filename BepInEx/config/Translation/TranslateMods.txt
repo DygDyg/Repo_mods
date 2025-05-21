@@ -1,0 +1,255 @@
+##MoreHead##
+
+<color\=#FF0000>M</color><color\=#FF3300>O</color><color\=#FF6600>R</color><color\=#FF9900>E</color><color\=#FFCC00>H</color><color\=#FFDD00>E</color><color\=#FFEE00>A</color><color\=#FFFF00>D</color>=<color\=#FF0000>АК</color><color\=#FF3300>СЕ</color><color\=#FF6600>СС</color><color\=#FF9900>УА</color><color\=#FFCC00>РЫ</color>
+
+r:"^(Rotate robot:.*?)$"="Поворот робота: A/D"
+<size\=10><color\=#FFFFA0>Masaicker</color> and <color\=#FFFFA0>Yuriscat</color> co-developed.\n由<color\=#FFFFA0>马赛克了</color>和<color\=#FFFFA0>尤里的猫</color>共同制作。</size>=<size\=1>
+
+<size\=14><b><color\=#FFFFFF>ALL</color></b></size>=<size\=12><b><color\=#FFFFFF>ВСЕ</color></b></size>
+<size\=14><color\=#00AAFF50>HEAD</color></size>=<size\=12><color\=#00AAFF50>ГОЛОВА</color></size>
+<size\=14><color\=#AA00FF50>NECK</color></size>=<size\=12><color\=#AA00FF50>ШЕЯ</color></size>
+<size\=14><color\=#FFAA0050>BODY</color></size>=<size\=12><color\=#FFAA0050>ТЕЛО</color></size>
+<size\=14><color\=#FF00AA50>HIP</color></size>=<size\=12><color\=#FF00AA50>БЕДРА</color></size>
+<size\=14><color\=#AACCAA50>LIMBS</color></size>=<size\=12><color\=#AACCAA50>руки/ноги</color></size>
+<size\=14><color\=#00FFAA50>WORLD</color></size>=<size\=12><color\=#00FFAA50>         Окружение</color></size>
+
+r:"^(.*?)\(head\)(.*?)$"="$1(голова)$2"
+r:"^(.*?)\(body\)(.*?)$"="$1(тело)$2"
+r:"^(.*?)\(neck\)(.*?)$"="$1(шея)$2"
+r:"^(.*?)\(hip\)(.*?)$"="$1(бедра)$2"
+r:"^(.*?)\(world\)(.*?)$"="$1(окружение)$2"
+r:"^(.*?)\(L-ARM\)(.*?)$"="$1(л-рука)$2"
+r:"^(.*?)\(R-ARM\)(.*?)$"="$1(п-рука)$2"
+r:"^(.*?)\(L-LEG\)(.*?)$"="$1(л-нога)$2"
+r:"^(.*?)\(R-LEG\)(.*?)$"="$1(п-нога)$2"
+
+
+<size\=18><color\=#FFFFFF>C</color><color\=#E6E6E6>L</color><color\=#CCCCCC>O</color><color\=#B3B3B3>S</color><color\=#999999>E</color></size>=<size\=18><color\=#FFFFFF>ЗАКРЫТЬ</color></size>
+<size\=18><color\=#FFAA00>CLEAR ALL</color></size>=<size\=18><color\=#FFAA00>Очистить все</color></size>
+
+##MenuLib##
+
+Mods=Моды
+Save Changes=Сохранить
+Reset=Сбросить
+Unsaved Changes=Несохраненные изменения
+You have unsaved changes, are you sure you want to exit?=У вас есть несохраненные изменения, вы уверены что хотите выйти?
+
+##CustomColors##
+
+Color [BLUE]=Цвет [синий]
+Color [GREEN]=Цвет [зеленый]
+Color [RED]=Цвет [красный]
+
+##ChaosTricks##
+
+r:"^<b>FOCUS > <\/b>(.*?)$"="<b>Внимание > </b>$1"
+
+##MoreUpgrade##
+
+
+Map Enemy Tracker Upgrade=Улучшение: Отображение врагов на карте
+Map Player Tracker Upgrade=Улучшение: Отображение игроков на карте
+Valuable Count Upgrade=Улучшение: Счётчик ценностей
+Sprint Usage Upgrade=Улучшение: Экономный бег
+
+MAP ENEMY TRACKER\n=ОТОБРАЖЕНИЕ ВРАГОВ\n
+MAP PLAYER TRACKER\n=ОТОБРАЖЕНИЕ ИГРОКОВ\n
+
+VALUABLE COUNT\n=СЧЁТЧИК ЦЕННОСТЕЙ\n
+SPRINT USAGE\n=ЭКОНОМНЫЙ БЕГ\n
+
+<b>FOCUS > </b>Fill the extraction point with valuables\nValuables: <b>$1</b> (<color\=#558B2F><b>$1</b></color>)=<b>ЦЕЛЬ ></b> Заполните точку извлечения ценностями\n                  Количество ценностей: <b>$1</b> (<color\=#558B2F><b>$1</b></color>)
+<b>ЦЕЛЬ ></b> Заполните точку извлечения ценностями\n                  Количество\nValuables: <b>$1</b> (<color\=#558B2F>$</color><b>$1</b>)=<b>ЦЕЛЬ ></b> Заполните точку извлечения ценностями\n                  Количество ценностей: <b>$1</b> (<color\=#558B2F>$</color><b>$1</b>)
+
+##REPORoles##
+
+Runner=Бегун
+You have more stamina and run much faster than everyone else!\nPress R to continue=Ты бегаешь намного быстрее всех!\nНажми R чтобы продолжить
+Athletic=Атлет
+You have more stamina, strength and can jump higher!\nPress R to continue=У тебя больше выносливости, силы и ты можешь прыгать выше!\nНажми R чтобы продолжить
+Tank=Танк
+You walk slower but your hp is doubled!\nPress R to continue=Ты ходишь медленнее но твое здоровье удвоено!\nНажми R чтобы продолжить
+Mage=Маг
+You are able to use your mana to become incredibly strong!\nPress M to see all your spells and press R to continue=Ты можешь использовать свою ману чтобы стать невероятно мощным!\nНажми M чтобы увидеть все свои заклинания и R чтобы продолжить
+Strongman=Силач
+You´re incredibly strong!\nPress R to continue=Ты невероятно силен!\nНажми R чтобы продолжить
+Ranged Looter=Длиннохват
+You can reach objects from far away!\nPress R to continue=Ты можешь достать предметы с большого расстояния!\nНажми  чтобы продолжить
+Gambler=Азартный игрок
+For each enemy you and your friends kill, you become stronger!\nPress R to continue=За каждого врага которого вы и ваши друзья убиваете вы становитесь сильнее!\nНажмите R чтобы продолжить
+
+REPO Roles=Репо роли
+REPO Roles Config=Конфиг ролей
+Choose your role=Выберите свою роль
+Random=Случайно
+Reassign role on respawn=Сменить роль при возрождении
+
+[H] Heal yourself for {{A}} health ({{B}} Mana)\n\n[N] Regenerate your stamina to full ({{C}} Mana)\n\n[J] Become faster for {{D}} seconds ({{E}} Mana)\n\n[O] Boost the effectivity of spells used in the next {{F}} seconds ({{G}} Mana)\n\n[K] Jump higher for {{H}} seconds ({{I}} Mana)=[H] Исцелите свое здоровье на {{A}}  ( {{B}} Мана)\n\n[N] Полностью восстановить свою выносливость ( {{C}} Мана)\n\n[J] Стать быстрее в течении {{D}} секунд ( {{E}} Мана)\n\n[O] Повысить эффективность заклинаний на {{F}} секунд ( {{G}} Мана)\n\n[K] Прыгать выше на {{H}} секунд ({{I}} Мана)
+Used Stamina Refill (-{{A}} Mana)=Использовано: Восстановление выносливости (-{{A}} Мана)
+Used Speed (-{{A}} Mana)=Использовано: Повышение скорости (-{{A}} Мана)
+Used Overcharge (-{{A}} Mana)=Использовано: Эффективность магии (-{{A}} Мана)
+Used Jump Boost (-{{A}} Mana)=Использовано: Усиление прыжка (-{{A}} Мана)
+Used Heal (-{{A}} Mana)=Использовано: Исцеление (-{{A}} Мана)
+
+You rolled effect combo 1. You walk, crouch and run slower but you have more health!\nPress R to continue=Вы получили комбо эффектов 1. Вы ходите, крадётесь и бегаете медленнее, но у вас больше здоровья!\nНажми R чтобы продолжить
+You rolled random effects: You walk, crouch and run slower but you have more health!\nPress R to continue=Вы получили случайные эффекты: вы ходите, крадётесь и бегаете медленнее, но у вас больше здоровья!\nНажми R чтобы продолжить
+You rolled effect combo 2. You don´t jump as high but you walk, crouch and run faster!\nPress R to continue=Вы получили комбо эффектов 2. Вы прыгаете не так высоко, но ходите, крадётесь и бегаете быстрее!\nНажми R чтобы продолжить
+You rolled random effects: You don´t jump as high but you walk, crouch and run faster!\nPress R to continue=Вы получили случайные эффекты: вы прыгаете не так высоко,\nно ходите, крадётесь и бегаете быстрее!\nНажми R чтобы продолжить
+You rolled effect combo 3. You have more stamina but you have less health.\nPress R to continue=Вы получили комбо эффектов 3. У вас больше выносливости, но меньше здоровья.\nНажми R чтобы продолжить
+You rolled random effects: You have more stamina but you have less health!\nPress R to continue=Вы получили случайные эффекты: у вас больше выносливости, но меньше здоровья!\nНажми R чтобы продолжить
+You rolled effect combo 4. You´re stronger but you have less stamina.\nPress R to continue=Вы получили комбо эффектов 4. Вы сильнее, но у вас меньше выносливости.\nНажми R чтобы продолжить
+You rolled random effects: You´re stronger but you have less stamina!\nPress R to continue=Вы получили случайные эффекты: вы сильнее, но у вас меньше выносливости!\nНажми R чтобы продолжить
+You rolled effect combo 5. You´re not as strong but you have more reach.=Вы получили комбо эффектов 5. Вы не так сильны, но у вас больше дальность захвата.
+You rolled random effects: You´re weaker but you have more reach!\nPress R to continue=Вы получили случайные эффекты: вы слабее, но у вас больше дальность захвата!\nНажми R чтобы продолжить
+
+##PlayerCount##
+
+r:"Players:\s*(\d+)\/(\d+)"=" <size\=17>Игроков: $1/$2</size>"
+
+##Unique Potions##
+
+Stamina Elixir=Эликсир Выносливости
+Rocket Elixir=Ракетный эликсир
+Gold Potion=Золотой эликсир
+Gravity Potion=Эликсир гравитации
+Health Potion=Эликсир Здоровья
+Phoenix Potion=Эликсир Феникса
+Singularity Potion=Эликсир сингулярности
+Unstable Potion=Нестабиильный эликсир
+
+##RaygunMod##
+
+Raygun=Лучемёт
+
+##AbioticFactorValuables##
+
+Crowbar=Монтировка
+Energy Pistol=Энергопистолет
+Lodestone Crossbow=Арбалет
+Tech Scepter=Техноскипетр
+
+##Weeping Angel Enemy##
+
+Weeping Angel=Плачущий Ангел
+
+##Rifle##
+
+Rifle=Винтовка
+
+##RepoLib##
+
+REPOLib is loading bundles... Hang tight!=REPOLib загружает ресурсы... Немного терпения!
+r:"^REPOLib: Waiting for ([0-9]{1,4}) bundles to load\.\.\.$"=REPOLib: Ожидание загрузки $1 пакетов...
+
+##CustomGrabColor##
+
+Change Grab Colour=Изменить цвет захвата
+Change Grab Beam Colour=Изменить цвет луча
+Healing Beam Colour=Цвет исцеляющего луча
+Rotating Beam Colour=Цвет вращающего луча
+Neutral Beam Colour=Цвет захватывающего луча
+
+Blue=Синий
+Green=Зеленый
+Red=Красный
+Opacity=Прозрачность
+Match Skin Colour=Цвет скина
+
+Healing Colour Preview=Предпросмотр луча исцеления
+Rotating Colour Preview=Предпросмотр луча вращения
+Neutral Colour Preview=Предпросмотр луча захвата
+
+Done=Принять
+
+##ItemResistUpgrade##
+
+Item Resist Upgrade=Улучшение: Прочность предметов
+
+
+##Airhorn##
+
+Airhorn=Воздушный горн
+
+##ZoomyEyes##
+
+Pupil Size=Размер зрачков
+
+##Semibot Sliders##
+
+Semibot Sliders=Пропорции тела
+EyeR=Правый глаз
+EyeL=Левый глаз
+HeadTop=Голова
+HeadBot=Голова
+ArmR=Правая рука
+ArmL=Левая рука
+BodyTopScale=Тело
+BodyTop=Тело
+BodyBotScale=Низ Тела
+BodyBot=Тело
+LegRTop=Правая нога
+LegRBot=Правая нога
+LegLTop=Левая нога
+LegLBot=Левая нога
+Reset to Defaults=Сбросить по умолчанию
+Revert=Отменить изменения
+
+##Melanie REPO Levels MelanieMelicious##
+
+MAUSOLEUM=МАВЗОЛЕЙ
+
+##YippeeDuckEnemy##
+
+YippeeDuck=Уточка Япии
+
+##CANNON##
+
+C.A.N.N.O.N=П.У.Ш.К.А.
+
+##SteampunkItems##
+
+Pickaxe=Кирка
+
+##Vacuum##
+
+Vacuum=Пылесос
+
+##ItemBundles##
+
+<color\=#ff0><b>Bundle</b></color>=<size\=8.3><color\=#ff0><b>Комплект</b></color></size>
+
+Explosive Mines\n[Bundle]=Взрывная мина\n[Комплект]
+Shockwave Mines\n[Bundle]=Ударная мина\n[Комплект]
+Stun Mines\n[Bundle]=Оглушающий капкан\n[Комплект]
+Shockwave Grenades\n[Bundle]=Ударная граната\n[Комплект]
+Grenades\n[Bundle]=Граната\n[Комплект]
+Large Health Packs (100)\n[Bundle]=Большой набор здоровья (100)\n[Комплект]
+Medium Health Packs (50)\n[Bundle]=Средний набор здоровья (50)\n[Комплект]
+Small Health Packs (25)\n[Bundle]=Малый набор здоровья (25)\n[Комплект]
+
+Health Upgrades\n[Bundle]=Улучшение: Здоровье\n[Комплект]
+Range Upgrades\n[Bundle]=Улучшение: Дальность хвата\n[Комплект]
+Sprint Speed Upgrades\n[Bundle]=Улучшение: Скорость бега\n[Комплект]
+Map Player Count Upgrades\n[Bundle]=Улучшение: Счётчик живых игроков\n[Комплект]
+Stamina Upgrades\n[Bundle]=Улучшение: Выносливость\n[Комплект]
+Strength Upgrades\n[Bundle]=Улучшение: Сила\n[Комплект]
+Tumble Launch Upgrades\n[Bundle]=Улучшение: Дальность кувырка\n[Комплект]
+Extra Jump Upgrades\n[Bundle]=Улучшение: Дополнительный прыжок\n[Комплект]
+
+##SisyphusStaircaseLevel##
+
+SWIFTBROOM ACADEMY???=АКАДЕМИЯ СВИФТБРУМ???
+
+##MinecraftStrongholdLevel##
+
+STRONGHOLD=КРЕПОСТЬ
+
+##Hospital_Level##
+
+HOPING HOSPITAL=БОЛЬНИЦА НАДЕЖДЫ
+
+##Map Value Tracker##
+
+r:"^Map: (.+)"=На карте: $1
+
