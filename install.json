@@ -6,7 +6,6 @@
     "cmd": [
         "TASKKILL /F /IM REPO.exe",
         "TASKKILL /F /IM repo_updater.exe",
-        "pause",
         "del /F repo_updater.exe",
         "ren repo_updater_tmp.exe repo_updater.exe",
         "start steam://rungameid/3241660"
