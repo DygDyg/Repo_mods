@@ -4,7 +4,7 @@
         "BepInEx/plugins"
     ],
     "cmd": [
-        "TASKKILL /F /IM repo_updater.exe /FI \"STATUS eq RUNNING\"",
+        "TASKKILL /F /IM repo_updater /FI \"STATUS eq RUNNING\"",
         "pause",
         "del /F repo_updater.exe",
         "ren repo_updater_tmp.exe repo_updater.exe",
