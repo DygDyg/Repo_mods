@@ -1,8 +1,6 @@
-#Update 2.0.3
+Update 2.0.5
 
 
-[BUGFIX] Fixed spelling in the error when all roles are disabled
+[BUGFIX] Fixed Tank health regen going on when dead
 
-[ABILITY] Tank now has a passive, slow regeneration
-
-[NEW FEATURE] You can now toggle if gui is shown when being assigned a role
+This update is mainly to ensure this mod is compatible with the newest beta update
