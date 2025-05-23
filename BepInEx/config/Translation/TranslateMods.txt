@@ -64,6 +64,9 @@ SPRINT USAGE\n=ЭКОНОМНЫЙ БЕГ\n
 
 ##REPORoles##
 
+You rolled random effects: You have more health but you don't jump as high!\nPress R to continueВы получили случайные эффекты: у вас больше здоровья, но вы не прыгаете так высоко!\nНажмите R, чтобы продолжить
+Scout=Разведчик
+Your stamina is more efficient and by pressing [G] you can see all enemies around you.\nPress R to continue=Ваша выносливость повысится, а нажав [G], вы сможете видеть всех врагов вокруг себя.\nНажмите R, чтобы продолжить
 Runner=Бегун
 You have more stamina and run much faster than everyone else!\nPress R to continue=Ты бегаешь намного быстрее всех!\nНажми R чтобы продолжить
 Athletic=Атлет
@@ -78,7 +81,6 @@ Ranged Looter=Длиннохват
 You can reach objects from far away!\nPress R to continue=Ты можешь достать предметы с большого расстояния!\nНажми  чтобы продолжить
 Gambler=Азартный игрок
 For each enemy you and your friends kill, you become stronger!\nPress R to continue=За каждого врага которого вы и ваши друзья убиваете вы становитесь сильнее!\nНажмите R чтобы продолжить
-
 REPO Roles=Репо роли
 REPO Roles Config=Конфиг ролей
 Choose your role=Выберите свою роль

@@ -1,6 +1,6 @@
-Update 2.0.5
+Update 2.0.6
 
 
-[BUGFIX] Fixed Tank health regen going on when dead
+[BUGFIX] Reaper now works for everyone in the lobby even if someone else is reaper too (Note: Reaper kills are now server side and compatible with the May 16th beta update)
 
-This update is mainly to ensure this mod is compatible with the newest beta update
+[BALANCE] Reaper now only gains health stats when killing monsters
